@@ -19,12 +19,10 @@
   
   .image {
     width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
+    height: 12rem;
     object-fit: cover;
     margin-bottom: 10px;
-    border-radius: 100%;
-    margin-top: 10%;
+    margin-top: 20%;
   }
   
   .name {

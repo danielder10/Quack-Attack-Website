@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 
 const creators = [
   {
-    imageUrl: '/duck.png',
+    imageUrl: '/melissa duck.png',
     name: 'Melissa. J',
     text: 'Character Designer, Animator and Developer.',
   },
@@ -17,12 +17,12 @@ const creators = [
     text: 'Background Designer and Developer.',
   },
   {
-    imageUrl: '/duck.png',
+    imageUrl: '/ara_duck.svg',
     name: 'Arabella. A',
     text: 'Background Designer and Dialogue Developer.',
   },
   {
-    imageUrl: '/duck.png',
+    imageUrl: '/daniel duck.png',
     name: 'Daniel. D',
     text: 'Background Designer and Developer.',
   },
