@@ -28,6 +28,7 @@
     margin-bottom: 1rem; 
     font-size: 3rem;
     background-color: white;
+    color:black;
   }
   
   .textarea {
@@ -36,6 +37,7 @@
     margin-bottom: 1rem; 
     font-size: 3rem;
     background-color: white;
+    color: black;
   }
   .button{
     width:30rem;
