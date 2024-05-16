@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
           <p className={styles.message}>- Quack Attack Team</p>
           <img className={styles.border2} src="borderwhite.png" alt="border"></img>
           </div>
+          <Footer/>
       </main>
     </>
   );

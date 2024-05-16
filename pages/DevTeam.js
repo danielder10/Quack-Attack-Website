@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from '@/styles/DevTeam.module.css';
 import Header from '@/components/Header';
 import Creators from '@/components/Creators';
+import Footer from '@/components/Footer';
 
 const creators = [
   {
@@ -54,6 +55,7 @@ export default function DevTeam() {
           </div>
           <img className={styles.border} src="borderwhite.png" alt="border"></img>
         </div>
+        <Footer/>
       </main>
     </>
   );

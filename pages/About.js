@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/About.module.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function About() {
   return (
@@ -22,6 +23,7 @@ export default function About() {
             <p className={styles.message}>But "Quack Attack" isn't just about action-packed battles – it's also about engaging dialogues that will immerse you in the rich tapestry of the game world. From quirky characters to heartfelt moments, every interaction will leave you craving more.</p>
             <p className={styles.message}>So, gear up, sharpen your skills, and get ready to quack your way to victory in "Quack Attack" – the ultimate test of bravery, skill, and determination! </p>
             </div>
+        <Footer/>
       </main>
     </>
   );

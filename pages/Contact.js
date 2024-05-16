@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Contact.module.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function Contact() {
   return (
@@ -24,6 +25,7 @@ export default function Contact() {
             <button type="submit" className={styles.button}>Submit</button>
           </form>
         </div>
+        <Footer/>
       </main>
     </>
   );

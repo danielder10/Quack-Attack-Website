@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Video.module.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function Video() {
   return (
@@ -22,6 +23,7 @@ export default function Video() {
         <div className={styles.home}>
         <h1 className={styles.welcome}>Watch this short promo video </h1>
         </div>
+        <Footer/>
       </main>
     </>
   );

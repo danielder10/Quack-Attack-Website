@@ -1,0 +1,14 @@
+.footer {
+    width: 80rem;
+    height: 1rem;
+    background-color: #242207;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.75rem; 
+    color: white;
+  }

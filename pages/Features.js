@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Features.module.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function Features() {
   return (
@@ -59,6 +60,7 @@ export default function Features() {
             </div>
           </div>
           </div>
+          <Footer/>
     </main>
     </>
   );
