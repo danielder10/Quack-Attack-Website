@@ -14,8 +14,16 @@ export default function Contact() {
       </Head>
       <main className={`${styles.main}`}>
         <Header/>
-        <img src="/Quack Attack Journey to the city.png"></img>
-        <div className={styles.home}><p>Hello There </p></div>
+        <img src="/Quack Attack Journey to the city.png" />
+        <div className={styles.home}>
+          <form className={styles.contactForm}>
+             <h1 className={styles.message}>Feel Free To Contact Us @QuackAttack</h1>
+            <input type="text" placeholder="Name" className={styles.input} />
+            <input type="email" placeholder="Email" className={styles.input} />
+            <textarea placeholder="Message" className={styles.textarea}></textarea>
+            <button type="submit" className={styles.button}>Submit</button>
+          </form>
+        </div>
       </main>
     </>
   );
