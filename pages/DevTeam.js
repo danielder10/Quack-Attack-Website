@@ -12,7 +12,7 @@ const creators = [
     text: 'Character Designer, Animator and Developer.',
   },
   {
-    imageUrl: '/duck.png',
+    imageUrl: '/kyannaduck.png',
     name: 'Kyanna. K',
     text: 'Background Designer and Developer.',
   },
