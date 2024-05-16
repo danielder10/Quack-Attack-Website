@@ -1,0 +1,64 @@
+.main{
+    background-color: white ;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    height: 100%;  
+  }
+  .home{
+    color: White;
+    background-color: #2F4111;
+    width:80rem;
+    height:100vh;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80rem;
+    padding: 1.25rem; 
+  }
+  
+  .row1 {
+    display: flex;
+    width: 100%;
+    margin-top: 3.125rem;
+    background-color: #8E9F69;
+  }
+
+  .row2 {
+    display: flex;
+    width: 100%;
+    margin-top: 3.125rem;
+    background-color: #8E9F69;
+  }
+
+  .row3 {
+    display: flex;
+    width: 100%;
+    margin-top: 3.125rem;
+    background-color: #8E9F69;
+  }
+  
+  .text {
+    flex: 1;
+    padding-right: 5.25rem; 
+    margin-left: 1.25rem;
+    margin-top: 1.25rem;
+    color: white; 
+    font-size: 2.125rem;
+  }
+  
+  .image {
+    flex: 1; 
+    padding-left: 1.25rem; 
+  }
+
+  .image img{
+    width:25rem;
+    height:25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1rem;
+  }

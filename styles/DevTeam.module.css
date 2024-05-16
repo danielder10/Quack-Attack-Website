@@ -1,0 +1,26 @@
+.main{
+    background-color: white ;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    height: 100%; 
+  }
+.home{
+    color: White;
+    background-color: #2F4111;
+    width:80rem;
+    height:100vh;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-left: 12rem;
+    margin-top: 20rem;
+}
+
+.border{
+    width: 80rem;
+    margin-top:2em;
+}
